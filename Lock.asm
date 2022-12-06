@@ -45,7 +45,7 @@ PollingButtons: CheckButton 0
 
                 sbic PIND, CHECK_PASS_BTN_PIN
                 rjmp PollingButtons
-WaitRelease1:    sbis PIND, CHECK_PASS_BTN_PIN
+WaitRelease1:   sbis PIND, CHECK_PASS_BTN_PIN
                 rjmp WaitRelease1
             
 CheckPass:      ldi tmp, CORRECT_PASS
