@@ -1,0 +1,9 @@
+﻿*.bat
+*.hex
+*.map
+*.obj
+*.tmp
+*.lst
+*.pro
+/Proteus/*.workspace
+/Proteus/Project Backups
